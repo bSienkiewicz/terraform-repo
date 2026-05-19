@@ -12,7 +12,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "temp_bucket" {
-  bucket_prefix = "brtk-spacelift-playground-"
+  bucket_prefix = "brtk-spacelift-playground-2-"
   tags = {
     "ManagedBy" = "Spacelift"
   }
